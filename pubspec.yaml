@@ -1,0 +1,31 @@
+name: demo_apk
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.2.6 <4.0.0"
+
+dependencies:
+  animate_do: ^3.3.4
+  auto_size_text: ^3.0.0
+  connectivity_plus: ^5.0.2
+  dart_ping: ^9.0.1
+  dio: ^5.4.3+1
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_riverpod: ^2.5.1
+  formz: ^0.6.1
+  go_router: ^14.2.0
+  intl: 0.18.1
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  generate: true
+  uses-material-design: true
