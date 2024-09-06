@@ -56,9 +56,9 @@ class AccountNotifier extends StateNotifier<AccountState> {
     required String password,
   }) async {
     try {
-      if (!connectivityStatusNotifier.isConnected) {
-        return 498;
-      }
+      // if (!connectivityStatusNotifier.isConnected) {
+      //   return 498;
+      // }
 
       //* Aquí haría la request al endpoint de loguearse
       // await accountsRemoteRepository.login(
